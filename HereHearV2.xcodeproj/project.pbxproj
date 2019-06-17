@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8E0AA15AA6F3C33E898C001 /* libPods-HereHearV2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A59236ED51E33CD37BF9D354 /* libPods-HereHearV2.a */; };
+		B519B33122B690EE004EC962 /* UploadProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519B32F22B690EE004EC962 /* UploadProcessViewController.swift */; };
+		B519B33222B690EE004EC962 /* UploadProcessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B519B33022B690EE004EC962 /* UploadProcessViewController.xib */; };
+		B519B33422B698B3004EC962 /* Complete.json in Resources */ = {isa = PBXBuildFile; fileRef = B519B33322B698B3004EC962 /* Complete.json */; };
+		B519B33722B698D5004EC962 /* CompleteUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B519B33522B698D5004EC962 /* CompleteUploadViewController.swift */; };
+		B519B33822B698D5004EC962 /* CompleteUploadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B519B33622B698D5004EC962 /* CompleteUploadViewController.xib */; };
+		B51DEA1D22B0C8F10043E156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DEA1C22B0C8F10043E156 /* AppDelegate.swift */; };
+		B51DEA1F22B0C8F10043E156 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DEA1E22B0C8F10043E156 /* RootViewController.swift */; };
+		B51DEA2222B0C8F10043E156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51DEA2022B0C8F10043E156 /* Main.storyboard */; };
+		B51DEA2422B0C8F20043E156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51DEA2322B0C8F20043E156 /* Assets.xcassets */; };
+		B51DEA2722B0C8F20043E156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51DEA2522B0C8F20043E156 /* LaunchScreen.storyboard */; };
+		B51DEA3422B0CC090043E156 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B51DEA3622B0CC090043E156 /* Localizable.strings */; };
+		B51DEA3E22B0D6310043E156 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DEA3C22B0D6310043E156 /* Constants.swift */; };
+		B51DEA3F22B0D6310043E156 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DEA3D22B0D6310043E156 /* BaseViewController.swift */; };
+		B51DEA4122B0DFF50043E156 /* LaunchVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B51DEA4022B0DFF50043E156 /* LaunchVideo.mp4 */; };
+		B51DEA4322B103ED0043E156 /* MainPage.json in Resources */ = {isa = PBXBuildFile; fileRef = B51DEA4222B103ED0043E156 /* MainPage.json */; };
+		B51DEA4C22B1FB150043E156 /* SayStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DEA4A22B1FB150043E156 /* SayStoryViewController.swift */; };
+		B51DEA4D22B1FB150043E156 /* SayStoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51DEA4B22B1FB150043E156 /* SayStoryViewController.xib */; };
+		B51DEA5022B1FB2B0043E156 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DEA4E22B1FB2B0043E156 /* ActivityViewController.swift */; };
+		B51DEA5122B1FB2B0043E156 /* ActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51DEA4F22B1FB2B0043E156 /* ActivityViewController.xib */; };
+		B51DEA5422B1FB460043E156 /* ListenStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DEA5222B1FB460043E156 /* ListenStoryViewController.swift */; };
+		B51DEA5522B1FB460043E156 /* ListenStoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51DEA5322B1FB460043E156 /* ListenStoryViewController.xib */; };
+		B51DEA5822B1FB870043E156 /* AnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DEA5622B1FB870043E156 /* AnalysisViewController.swift */; };
+		B51DEA5922B1FB870043E156 /* AnalysisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51DEA5722B1FB870043E156 /* AnalysisViewController.xib */; };
+		B51DEA5C22B1FB960043E156 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DEA5A22B1FB960043E156 /* MoreViewController.swift */; };
+		B51DEA5D22B1FB960043E156 /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51DEA5B22B1FB960043E156 /* MoreViewController.xib */; };
+		B51DEA5F22B200270043E156 /* RoundCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51DEA5E22B200270043E156 /* RoundCorner.swift */; };
+		B51E8C3522B36E8B0000FB82 /* UserAgreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E8C3422B36E8B0000FB82 /* UserAgreeViewController.swift */; };
+		B52E7BD422B604B200E9CCB5 /* StoryTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E7BD222B604B200E9CCB5 /* StoryTagViewController.swift */; };
+		B52E7BD522B604B200E9CCB5 /* StoryTagViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B52E7BD322B604B200E9CCB5 /* StoryTagViewController.xib */; };
+		B52E7BD922B6687200E9CCB5 /* UploadKnowledgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E7BD722B6687200E9CCB5 /* UploadKnowledgeViewController.swift */; };
+		B52E7BDA22B6687200E9CCB5 /* UploadKnowledgeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B52E7BD822B6687200E9CCB5 /* UploadKnowledgeViewController.xib */; };
+		B56AD68122B50FC700488D9D /* SayStory2.wav in Resources */ = {isa = PBXBuildFile; fileRef = B56AD67E22B50FC700488D9D /* SayStory2.wav */; };
+		B56AD68222B50FC700488D9D /* SayStory3.wav in Resources */ = {isa = PBXBuildFile; fileRef = B56AD67F22B50FC700488D9D /* SayStory3.wav */; };
+		B56AD68322B50FC700488D9D /* SayStory1.wav in Resources */ = {isa = PBXBuildFile; fileRef = B56AD68022B50FC700488D9D /* SayStory1.wav */; };
+		B56AD68622B512F900488D9D /* PrepareRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AD68422B512F900488D9D /* PrepareRecordViewController.swift */; };
+		B56AD68722B512F900488D9D /* PrepareRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56AD68522B512F900488D9D /* PrepareRecordViewController.xib */; };
+		B56AD68A22B54E7A00488D9D /* RecordingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56AD68822B54E7A00488D9D /* RecordingViewController.xib */; };
+		B56AD68B22B54E7A00488D9D /* RecordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AD68922B54E7A00488D9D /* RecordingViewController.swift */; };
+		B56AD68E22B5529D00488D9D /* PlayRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56AD68C22B5529D00488D9D /* PlayRecordViewController.xib */; };
+		B56AD68F22B5529D00488D9D /* PlayRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56AD68D22B5529D00488D9D /* PlayRecordViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25F0DA810B0FB8E1F0742AC1 /* Pods-HereHearV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HereHearV2.release.xcconfig"; path = "Pods/Target Support Files/Pods-HereHearV2/Pods-HereHearV2.release.xcconfig"; sourceTree = "<group>"; };
+		A59236ED51E33CD37BF9D354 /* libPods-HereHearV2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HereHearV2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B519B32F22B690EE004EC962 /* UploadProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadProcessViewController.swift; sourceTree = "<group>"; };
+		B519B33022B690EE004EC962 /* UploadProcessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UploadProcessViewController.xib; sourceTree = "<group>"; };
+		B519B33322B698B3004EC962 /* Complete.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Complete.json; sourceTree = "<group>"; };
+		B519B33522B698D5004EC962 /* CompleteUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteUploadViewController.swift; sourceTree = "<group>"; };
+		B519B33622B698D5004EC962 /* CompleteUploadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompleteUploadViewController.xib; sourceTree = "<group>"; };
+		B51DEA1922B0C8F10043E156 /* HereHearV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HereHearV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51DEA1C22B0C8F10043E156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B51DEA1E22B0C8F10043E156 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		B51DEA2122B0C8F10043E156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B51DEA2322B0C8F20043E156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B51DEA2622B0C8F20043E156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B51DEA2822B0C8F20043E156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51DEA3522B0CC090043E156 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B51DEA3722B0CC240043E156 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B51DEA3822B0CC260043E156 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B51DEA3C22B0D6310043E156 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B51DEA3D22B0D6310043E156 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B51DEA4022B0DFF50043E156 /* LaunchVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = LaunchVideo.mp4; sourceTree = "<group>"; };
+		B51DEA4222B103ED0043E156 /* MainPage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainPage.json; sourceTree = "<group>"; };
+		B51DEA4A22B1FB150043E156 /* SayStoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayStoryViewController.swift; sourceTree = "<group>"; };
+		B51DEA4B22B1FB150043E156 /* SayStoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SayStoryViewController.xib; sourceTree = "<group>"; };
+		B51DEA4E22B1FB2B0043E156 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		B51DEA4F22B1FB2B0043E156 /* ActivityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityViewController.xib; sourceTree = "<group>"; };
+		B51DEA5222B1FB460043E156 /* ListenStoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenStoryViewController.swift; sourceTree = "<group>"; };
+		B51DEA5322B1FB460043E156 /* ListenStoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListenStoryViewController.xib; sourceTree = "<group>"; };
+		B51DEA5622B1FB870043E156 /* AnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisViewController.swift; sourceTree = "<group>"; };
+		B51DEA5722B1FB870043E156 /* AnalysisViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnalysisViewController.xib; sourceTree = "<group>"; };
+		B51DEA5A22B1FB960043E156 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		B51DEA5B22B1FB960043E156 /* MoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
+		B51DEA5E22B200270043E156 /* RoundCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCorner.swift; sourceTree = "<group>"; };
+		B51E8C3422B36E8B0000FB82 /* UserAgreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgreeViewController.swift; sourceTree = "<group>"; };
+		B52E7BD222B604B200E9CCB5 /* StoryTagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryTagViewController.swift; sourceTree = "<group>"; };
+		B52E7BD322B604B200E9CCB5 /* StoryTagViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryTagViewController.xib; sourceTree = "<group>"; };
+		B52E7BD722B6687200E9CCB5 /* UploadKnowledgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadKnowledgeViewController.swift; sourceTree = "<group>"; };
+		B52E7BD822B6687200E9CCB5 /* UploadKnowledgeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UploadKnowledgeViewController.xib; sourceTree = "<group>"; };
+		B56AD67E22B50FC700488D9D /* SayStory2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SayStory2.wav; sourceTree = "<group>"; };
+		B56AD67F22B50FC700488D9D /* SayStory3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SayStory3.wav; sourceTree = "<group>"; };
+		B56AD68022B50FC700488D9D /* SayStory1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SayStory1.wav; sourceTree = "<group>"; };
+		B56AD68422B512F900488D9D /* PrepareRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareRecordViewController.swift; sourceTree = "<group>"; };
+		B56AD68522B512F900488D9D /* PrepareRecordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrepareRecordViewController.xib; sourceTree = "<group>"; };
+		B56AD68822B54E7A00488D9D /* RecordingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordingViewController.xib; sourceTree = "<group>"; };
+		B56AD68922B54E7A00488D9D /* RecordingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingViewController.swift; sourceTree = "<group>"; };
+		B56AD68C22B5529D00488D9D /* PlayRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayRecordViewController.xib; sourceTree = "<group>"; };
+		B56AD68D22B5529D00488D9D /* PlayRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayRecordViewController.swift; sourceTree = "<group>"; };
+		FDDF18F15968566657535F2B /* Pods-HereHearV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HereHearV2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HereHearV2/Pods-HereHearV2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B51DEA1622B0C8F10043E156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8E0AA15AA6F3C33E898C001 /* libPods-HereHearV2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9754DA23A91425AF2A24B42D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDDF18F15968566657535F2B /* Pods-HereHearV2.debug.xcconfig */,
+				25F0DA810B0FB8E1F0742AC1 /* Pods-HereHearV2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B519B32E22B690C1004EC962 /* 上傳程序 */ = {
+			isa = PBXGroup;
+			children = (
+				B519B32F22B690EE004EC962 /* UploadProcessViewController.swift */,
+				B519B33022B690EE004EC962 /* UploadProcessViewController.xib */,
+				B519B33522B698D5004EC962 /* CompleteUploadViewController.swift */,
+				B519B33622B698D5004EC962 /* CompleteUploadViewController.xib */,
+			);
+			path = "上傳程序";
+			sourceTree = "<group>";
+		};
+		B51DEA1022B0C8F10043E156 = {
+			isa = PBXGroup;
+			children = (
+				B51DEA1B22B0C8F10043E156 /* HereHearV2 */,
+				B51DEA1A22B0C8F10043E156 /* Products */,
+				9754DA23A91425AF2A24B42D /* Pods */,
+				D98AE1C58C523A436240CD05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B51DEA1A22B0C8F10043E156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B51DEA1922B0C8F10043E156 /* HereHearV2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B51DEA1B22B0C8F10043E156 /* HereHearV2 */ = {
+			isa = PBXGroup;
+			children = (
+				B51DEA3C22B0D6310043E156 /* Constants.swift */,
+				B51DEA1C22B0C8F10043E156 /* AppDelegate.swift */,
+				B51DEA3D22B0D6310043E156 /* BaseViewController.swift */,
+				B51E8C3422B36E8B0000FB82 /* UserAgreeViewController.swift */,
+				B51DEA1E22B0C8F10043E156 /* RootViewController.swift */,
+				B51DEA2822B0C8F20043E156 /* Info.plist */,
+				B51DEA4422B1F9E50043E156 /* 主功能 */,
+				B51DEA3922B0CC560043E156 /* Supporting Files */,
+			);
+			path = HereHearV2;
+			sourceTree = "<group>";
+		};
+		B51DEA3922B0CC560043E156 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B52D5FC622B50D7A00A215A2 /* Audio */,
+				B52D5FC522B50D6700A215A2 /* Video */,
+				B51DEA5E22B200270043E156 /* RoundCorner.swift */,
+				B51DEA2022B0C8F10043E156 /* Main.storyboard */,
+				B51DEA2322B0C8F20043E156 /* Assets.xcassets */,
+				B51DEA2522B0C8F20043E156 /* LaunchScreen.storyboard */,
+				B51DEA3622B0CC090043E156 /* Localizable.strings */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B51DEA4422B1F9E50043E156 /* 主功能 */ = {
+			isa = PBXGroup;
+			children = (
+				B51DEA4522B1F9FE0043E156 /* 聽故事 */,
+				B51DEA4622B1FA1A0043E156 /* 推薦活動 */,
+				B51DEA4722B1FA290043E156 /* 說故事 */,
+				B51DEA4822B1FA350043E156 /* 分析 */,
+				B51DEA4922B1FA3D0043E156 /* 更多 */,
+			);
+			path = "主功能";
+			sourceTree = "<group>";
+		};
+		B51DEA4522B1F9FE0043E156 /* 聽故事 */ = {
+			isa = PBXGroup;
+			children = (
+				B51DEA5222B1FB460043E156 /* ListenStoryViewController.swift */,
+				B51DEA5322B1FB460043E156 /* ListenStoryViewController.xib */,
+			);
+			path = "聽故事";
+			sourceTree = "<group>";
+		};
+		B51DEA4622B1FA1A0043E156 /* 推薦活動 */ = {
+			isa = PBXGroup;
+			children = (
+				B51DEA4E22B1FB2B0043E156 /* ActivityViewController.swift */,
+				B51DEA4F22B1FB2B0043E156 /* ActivityViewController.xib */,
+			);
+			path = "推薦活動";
+			sourceTree = "<group>";
+		};
+		B51DEA4722B1FA290043E156 /* 說故事 */ = {
+			isa = PBXGroup;
+			children = (
+				B519B32E22B690C1004EC962 /* 上傳程序 */,
+				B52E7BD622B6684C00E9CCB5 /* 上傳須知 */,
+				B51DEA4A22B1FB150043E156 /* SayStoryViewController.swift */,
+				B51DEA4B22B1FB150043E156 /* SayStoryViewController.xib */,
+				B56AD68422B512F900488D9D /* PrepareRecordViewController.swift */,
+				B56AD68522B512F900488D9D /* PrepareRecordViewController.xib */,
+				B56AD68922B54E7A00488D9D /* RecordingViewController.swift */,
+				B56AD68822B54E7A00488D9D /* RecordingViewController.xib */,
+				B56AD68D22B5529D00488D9D /* PlayRecordViewController.swift */,
+				B56AD68C22B5529D00488D9D /* PlayRecordViewController.xib */,
+				B52E7BD222B604B200E9CCB5 /* StoryTagViewController.swift */,
+				B52E7BD322B604B200E9CCB5 /* StoryTagViewController.xib */,
+			);
+			path = "說故事";
+			sourceTree = "<group>";
+		};
+		B51DEA4822B1FA350043E156 /* 分析 */ = {
+			isa = PBXGroup;
+			children = (
+				B51DEA5622B1FB870043E156 /* AnalysisViewController.swift */,
+				B51DEA5722B1FB870043E156 /* AnalysisViewController.xib */,
+			);
+			path = "分析";
+			sourceTree = "<group>";
+		};
+		B51DEA4922B1FA3D0043E156 /* 更多 */ = {
+			isa = PBXGroup;
+			children = (
+				B51DEA5A22B1FB960043E156 /* MoreViewController.swift */,
+				B51DEA5B22B1FB960043E156 /* MoreViewController.xib */,
+			);
+			path = "更多";
+			sourceTree = "<group>";
+		};
+		B52D5FC522B50D6700A215A2 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				B519B33322B698B3004EC962 /* Complete.json */,
+				B51DEA4222B103ED0043E156 /* MainPage.json */,
+				B51DEA4022B0DFF50043E156 /* LaunchVideo.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		B52D5FC622B50D7A00A215A2 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				B56AD68022B50FC700488D9D /* SayStory1.wav */,
+				B56AD67E22B50FC700488D9D /* SayStory2.wav */,
+				B56AD67F22B50FC700488D9D /* SayStory3.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		B52E7BD622B6684C00E9CCB5 /* 上傳須知 */ = {
+			isa = PBXGroup;
+			children = (
+				B52E7BD722B6687200E9CCB5 /* UploadKnowledgeViewController.swift */,
+				B52E7BD822B6687200E9CCB5 /* UploadKnowledgeViewController.xib */,
+			);
+			path = "上傳須知";
+			sourceTree = "<group>";
+		};
+		D98AE1C58C523A436240CD05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A59236ED51E33CD37BF9D354 /* libPods-HereHearV2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B51DEA1822B0C8F10043E156 /* HereHearV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51DEA2B22B0C8F20043E156 /* Build configuration list for PBXNativeTarget "HereHearV2" */;
+			buildPhases = (
+				511CE9D26ACA995EAD90183E /* [CP] Check Pods Manifest.lock */,
+				B51DEA1522B0C8F10043E156 /* Sources */,
+				B51DEA1622B0C8F10043E156 /* Frameworks */,
+				B51DEA1722B0C8F10043E156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HereHearV2;
+			productName = HereHearV2;
+			productReference = B51DEA1922B0C8F10043E156 /* HereHearV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B51DEA1122B0C8F10043E156 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Frank Liu";
+				TargetAttributes = {
+					B51DEA1822B0C8F10043E156 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = B51DEA1422B0C8F10043E156 /* Build configuration list for PBXProject "HereHearV2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+				"zh-Hans",
+			);
+			mainGroup = B51DEA1022B0C8F10043E156;
+			productRefGroup = B51DEA1A22B0C8F10043E156 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B51DEA1822B0C8F10043E156 /* HereHearV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B51DEA1722B0C8F10043E156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B52E7BDA22B6687200E9CCB5 /* UploadKnowledgeViewController.xib in Resources */,
+				B52E7BD522B604B200E9CCB5 /* StoryTagViewController.xib in Resources */,
+				B51DEA5922B1FB870043E156 /* AnalysisViewController.xib in Resources */,
+				B56AD68122B50FC700488D9D /* SayStory2.wav in Resources */,
+				B51DEA5D22B1FB960043E156 /* MoreViewController.xib in Resources */,
+				B51DEA2722B0C8F20043E156 /* LaunchScreen.storyboard in Resources */,
+				B519B33822B698D5004EC962 /* CompleteUploadViewController.xib in Resources */,
+				B51DEA3422B0CC090043E156 /* Localizable.strings in Resources */,
+				B51DEA5522B1FB460043E156 /* ListenStoryViewController.xib in Resources */,
+				B51DEA2422B0C8F20043E156 /* Assets.xcassets in Resources */,
+				B51DEA4D22B1FB150043E156 /* SayStoryViewController.xib in Resources */,
+				B56AD68A22B54E7A00488D9D /* RecordingViewController.xib in Resources */,
+				B51DEA4322B103ED0043E156 /* MainPage.json in Resources */,
+				B51DEA2222B0C8F10043E156 /* Main.storyboard in Resources */,
+				B56AD68722B512F900488D9D /* PrepareRecordViewController.xib in Resources */,
+				B56AD68E22B5529D00488D9D /* PlayRecordViewController.xib in Resources */,
+				B519B33222B690EE004EC962 /* UploadProcessViewController.xib in Resources */,
+				B56AD68322B50FC700488D9D /* SayStory1.wav in Resources */,
+				B51DEA4122B0DFF50043E156 /* LaunchVideo.mp4 in Resources */,
+				B56AD68222B50FC700488D9D /* SayStory3.wav in Resources */,
+				B519B33422B698B3004EC962 /* Complete.json in Resources */,
+				B51DEA5122B1FB2B0043E156 /* ActivityViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		511CE9D26ACA995EAD90183E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HereHearV2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B51DEA1522B0C8F10043E156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B519B33722B698D5004EC962 /* CompleteUploadViewController.swift in Sources */,
+				B51DEA5C22B1FB960043E156 /* MoreViewController.swift in Sources */,
+				B56AD68F22B5529D00488D9D /* PlayRecordViewController.swift in Sources */,
+				B52E7BD922B6687200E9CCB5 /* UploadKnowledgeViewController.swift in Sources */,
+				B51DEA1F22B0C8F10043E156 /* RootViewController.swift in Sources */,
+				B56AD68B22B54E7A00488D9D /* RecordingViewController.swift in Sources */,
+				B51DEA5022B1FB2B0043E156 /* ActivityViewController.swift in Sources */,
+				B56AD68622B512F900488D9D /* PrepareRecordViewController.swift in Sources */,
+				B51DEA5822B1FB870043E156 /* AnalysisViewController.swift in Sources */,
+				B51DEA5422B1FB460043E156 /* ListenStoryViewController.swift in Sources */,
+				B52E7BD422B604B200E9CCB5 /* StoryTagViewController.swift in Sources */,
+				B51E8C3522B36E8B0000FB82 /* UserAgreeViewController.swift in Sources */,
+				B51DEA4C22B1FB150043E156 /* SayStoryViewController.swift in Sources */,
+				B519B33122B690EE004EC962 /* UploadProcessViewController.swift in Sources */,
+				B51DEA3F22B0D6310043E156 /* BaseViewController.swift in Sources */,
+				B51DEA1D22B0C8F10043E156 /* AppDelegate.swift in Sources */,
+				B51DEA3E22B0D6310043E156 /* Constants.swift in Sources */,
+				B51DEA5F22B200270043E156 /* RoundCorner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B51DEA2022B0C8F10043E156 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51DEA2122B0C8F10043E156 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B51DEA2522B0C8F20043E156 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51DEA2622B0C8F20043E156 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B51DEA3622B0CC090043E156 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51DEA3522B0CC090043E156 /* en */,
+				B51DEA3722B0CC240043E156 /* zh-Hant */,
+				B51DEA3822B0CC260043E156 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B51DEA2922B0C8F20043E156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B51DEA2A22B0C8F20043E156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B51DEA2C22B0C8F20043E156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDDF18F15968566657535F2B /* Pods-HereHearV2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65D923Q4XY;
+				INFOPLIST_FILE = HereHearV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bamboodd.HereHearV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B51DEA2D22B0C8F20043E156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F0DA810B0FB8E1F0742AC1 /* Pods-HereHearV2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65D923Q4XY;
+				INFOPLIST_FILE = HereHearV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bamboodd.HereHearV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B51DEA1422B0C8F10043E156 /* Build configuration list for PBXProject "HereHearV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51DEA2922B0C8F20043E156 /* Debug */,
+				B51DEA2A22B0C8F20043E156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51DEA2B22B0C8F20043E156 /* Build configuration list for PBXNativeTarget "HereHearV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51DEA2C22B0C8F20043E156 /* Debug */,
+				B51DEA2D22B0C8F20043E156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B51DEA1122B0C8F10043E156 /* Project object */;
+}

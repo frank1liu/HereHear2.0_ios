@@ -1,0 +1,6 @@
+module Pods_HereHearV2 {
+  umbrella header "Pods-HereHearV2-umbrella.h"
+
+  export *
+  module * { export * }
+}
