@@ -24,16 +24,22 @@ class CompleteUploadViewController: BaseViewController {
         self.uploadComp.text = NSLocalizedString("upload_complete", comment: "")
         self.lab1.text = String(format: "%@:  %@", NSLocalizedString("story_num", comment: ""), "1A3D9V")
         self.lab2.text = String(format: "%@:          %@", NSLocalizedString("password", comment: ""), "1A2365B2d4Z38")
-        self.desc.text = NSLocalizedString("comp_desc", comment: "")
+        // self.desc.text = NSLocalizedString("comp_desc", comment: "")
 
+        let attributedString = NSMutableAttributedString(string: NSLocalizedString("comp_desc", comment: ""))
+        let paragraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.lineSpacing = 2
+        attributedString.addAttribute(NSAttributedString.Key.paragraphStyle, value:paragraphStyle, range:NSMakeRange(0, attributedString.length))
+        
+        desc.attributedText = attributedString
         self.playCompleteVideo()
     }
     
     func playCompleteVideo() {
         let animationView = AnimationView(name: "Complete")
         animationView.frame = CGRect(x: 0, y: 0, width: self.animView.frame.size.width, height: self.animView.frame.size.height)
-        animationView.center = self.animView.center
-        animationView.contentMode = .scaleAspectFill
+        //animationView.center = self.animView.center
+        animationView.contentMode = .scaleAspectFit
         animationView.loopMode = .loop
         self.animView.addSubview(animationView)
         animationView.play()
